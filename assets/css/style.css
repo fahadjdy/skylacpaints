@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #333333;
+    --secondary-color: #F5F5F5;
+    --dark-color: #001d3b;
+    --light-color: #fff6c0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-top {
+    text-align: center;
+    height: 35px;
+    background: var(--primary-color);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+}
+
+
+.nav {
+    background: #fff;
+    /* color: var(--primary-color); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* box-shadow: 2px 2px 5px #888888; */
+}
+
+.nav .logo {
+    font-size: 20px;
+}
+
+.nav .logo a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+}
+
+ul li a {
+    
+    color: var(--primary-color);
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 7px;
+}
+
+ul li a.active {
+    position: relative; /* Make sure the pseudo-element is positioned relative to the anchor tag */
+    padding-bottom: 5px; /
+}
+
+ul li a.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Start at the middle of the anchor tag */
+    transform: translateX(-50%); /* Center it horizontally */
+    width: 50%; /* Set the width of the border */
+    border-bottom: 1px solid var(--primary-color); /* Apply the border style */
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    background: var(--primary-color);
+    height: 2px;
+    width: 25px;
+    margin: 2px 0;
+}
+
+section {
+    padding: 20px;
+    height: 300px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: calc(100% - 40px);
+    z-index: 1000;
+    box-shadow: 2px 2px 5px #888888;
+}
