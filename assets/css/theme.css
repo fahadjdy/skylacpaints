@@ -16639,6 +16639,9 @@ button.bg-white:hover {
 .text-primary {
     color: var(--primary-color) !important
 }
+.text-primary:hover {
+    color: var(--warn-color) !important
+}
 
 a.text-primary:focus,
 a.text-primary:hover {
