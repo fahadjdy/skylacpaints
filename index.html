@@ -133,6 +133,9 @@
         <li class="nav-item" data-menuanchor="our-product">
           <a class="nav-link" href="#our-product">Our products</a>
         </li>
+        <li class="nav-item" data-menuanchor="our-product-slider">
+          <a class="nav-link" href="#our-product-slider">Our product slider</a>
+        </li>
         <li class="nav-item" data-menuanchor="what-we-do">
           <a class="nav-link" href="#what-we-do">What we do</a>
         </li>
@@ -207,7 +210,7 @@
         <div class="row mb-8">
           <div class="col-12 col-xl-6">
             <h2 class="mb-4 animated" data-animation="fadeInUp">Our Work</h2>
-            <p class="animated" data-animation="fadeInUp" data-animation-delay="150">At Altron Paints, we specialize in
+            <p class="animated" data-animation="fadeInUp" data-animation-delay="150">At Altron, we specialize in
               providing a vibrant range of high-quality automotive paints and finishes designed to meet the needs of car
               enthusiasts and professionals alike. Whether you're looking to refresh a vehicle’s look or achieve a
               custom finish, our products offer precision and durability.</p>
@@ -273,10 +276,10 @@
               <div class="row flex-lg-row-reverse">
                 <div class="col-12 col-lg-7 mb-4 mb-lg-0">
                   <div class="item-media">
-                    <a href="assets/images/car/residential.jpg" class="mfp-image">
+                    <a href="assets/images/car/agriculture.jpg" class="mfp-image">
                       <div class="media-container">
                         <div class="bg-image-holder bg-cover">
-                          <img src="assets/images/car/residential.jpg" alt="">
+                          <img src="assets/images/car/agriculture.jpg" alt="">
                         </div>
                       </div>
                     </a>
@@ -285,11 +288,11 @@
                 <div class="col-12 col-lg-5 d-lg-flex justify-content-lg-end text-lg-right">
                   <div class="pt-lg-8">
                     <div class="divider divider-alt bg-dark mt-0 mb-8 ml-auto mr-0 d-none d-lg-block"></div>
-                    <h4 class="h3 item-title">Elevate Your Home with Exquisite Residential Colors</h4>
-                    <p class="item-cat">Transform your living spaces with our premium residential paint collection.
-                      From soothing neutrals to bold statement hues, our high-quality paints offer superior coverage
-                      and long-lasting beauty. Create the perfect ambiance in every room with our carefully curated
-                      palette designed to inspire and enhance your home's unique character.</p>
+                    <h4 class="h3 item-title">Protect Your Agricultural Equipment with Durable Coatings</h4>
+                    <p class="item-cat">Safeguard your valuable agricultural machinery with our specialized paint solutions.
+                      From corrosion-resistant formulas to weather-proof coatings, our high-quality paints offer superior protection
+                      and long-lasting durability. Enhance the lifespan of your equipment while maintaining its appearance with our
+                      carefully developed range designed to withstand the demanding conditions of agricultural environments.</p>
                   </div>
                 </div>
               </div>
@@ -387,9 +390,9 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                       <div class="card text-center p-4">
-                        <i class="fas fa-home fa-3x mb-3 text-primary"></i>
-                        <h5 class="mb-2">Residential</h5>
-                        <p class="mb-0">Durable and stylish paints for homes and buildings.</p>
+                        <i class="fas fa-tractor fa-3x mb-3 text-primary"></i>
+                        <h5 class="mb-2">Agriculture</h5>
+                        <p class="mb-0">Protective coatings for agricultural machinery and equipment.</p>
                       </div>
                     </div>
                   </div>
@@ -423,6 +426,51 @@
 
       </div>
     </section>
+
+
+    <section class="ln-section product-slider-section d-flex justify-content-center" data-anchor="our-product-slider" data-tooltip="Our product" data-ui="dark"
+    data-navbar="navbar-light">
+      <div class="container align-self-xl-center ">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-10">
+            <div class="product-slider">
+              <h2 class="text-left mb-5">Our Portfolio Work</h2>
+              <div class="swiper-container product-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="assets/images/products/1.jpeg" alt="Product 1" class="product-image">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/images/products/2.jpeg" alt="Product 2" class="product-image">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/images/products/3.jpeg" alt="Product 3" class="product-image">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/images/products/4.jpeg" alt="Product 4" class="product-image">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/images/products/2.jpeg" alt="Product 2" class="product-image">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/images/products/3.jpeg" alt="Product 3" class="product-image">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/images/products/4.jpeg" alt="Product 4" class="product-image">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/images/products/5.jpeg" alt="Product 5" class="product-image">
+                  </div>
+                </div>
+                <div class="swiper-button-next swiper-button-circle"></div>
+                <div class="swiper-button-prev swiper-button-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="ln-section d-xl-flex bg-light" data-anchor="what-we-do" data-tooltip="What we do" data-ui="dark"
       data-navbar="navbar-light">
@@ -806,6 +854,67 @@
   <!-- Theme JS -->
   <script src="assets/js/main.min.js"></script>
 
+  <style>
+    .product-slider-section {
+      padding: 50px 0;
+      overflow: hidden;
+    }
+    .product-slider {
+      position: relative;
+    }
+    .product-swiper {
+      width: 100%;
+      height: 400px;
+    }
+    .product-swiper .swiper-slide {
+      width: calc(25% - 30px); /* 4 slides per view with spacing */
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s;
+    }
+    .product-swiper .swiper-slide:hover {
+      transform: scale(1.05);
+    }
+    .product-image {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+    .product-swiper .swiper-button-next,
+    .product-swiper .swiper-button-prev {
+      color: #fff;
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      new Swiper('.product-swiper', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          draggable: true,
+        },
+        breakpoints: {
+          // when window width is <= 768px
+          768: {
+            slidesPerView: 2,
+          },
+          // when window width is <= 480px
+          480: {
+            slidesPerView: 1,
+          }
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>  <!-- Swiper Slider CSS -->
