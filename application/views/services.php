@@ -13,7 +13,7 @@
   <main>
             
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url('<?=base_url("assets/user/img/bg/about-us-bg.JPG")?>');">
+            <section class="breadcrumb-area d-flex align-items-center" style="background-image:url('<?=base_url("assets/user/img/bg/products pht.jpg")?>');">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-lg-12">
