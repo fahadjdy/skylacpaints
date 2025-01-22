@@ -271,7 +271,6 @@
                                     <p>"I recently had my car painted at this shop and I'm extremely satisfied with the results. The color matching was perfect and the finish is flawless. Their attention to detail and professional service really impressed me."</p>
                                     <div class="ta-info">
                                             <h6>Hussain Rokadiya</h6>
-                                            <span>Car Owner</span>
                                         </div>
                                     <div class="qt-img">
                                     <img src="<?=base_url('assets/user/img/testimonial/qt-icon.png')?>" alt="img">
@@ -284,7 +283,6 @@
                                   <p>"The quality of automotive paint they use is outstanding. My vehicle's new paint job has been holding up beautifully for months now. Their team was professional, efficient and delivered exactly what they promised."</p>
                                     <div class="ta-info">
                                             <h6>Amin Kansara</h6>
-                                            <span>Business Owner</span>
                                         </div>
                                      <div class="qt-img">
                                     <img src="<?=base_url('assets/user/img/testimonial/qt-icon.png')?>" alt="img">
@@ -297,7 +295,6 @@
                                     <p>"I had some custom paint work done on my classic car and the results exceeded my expectations. Their expertise in color matching and attention to detail is remarkable. I highly recommend their services to anyone looking for quality automotive painting."</p>
                                     <div class="ta-info">
                                             <h6>Mushtaque Memon</h6>
-                                            <span>Classic Car Enthusiast</span>
                                         </div>
                                     <div class="qt-img">
                                     <img src="<?=base_url('assets/user/img/testimonial/qt-icon.png')?>" alt="img">
@@ -310,7 +307,6 @@
                                   <p>"The industrial paint solutions provided by this company are top-notch. We've used their services for our fleet vehicles and the durability of their paint work is exceptional. Great customer service and professional team."</p>
                                    <div class="ta-info">
                                             <h6>Yogesh Bhola</h6>
-                                            <span>Fleet Manager</span>
                                         </div>
                                      <div class="qt-img">
                                     <img src="<?=base_url('assets/user/img/testimonial/qt-icon.png')?>" alt="img">
@@ -324,7 +320,6 @@
                                     <p>"I'm amazed by the transformation of my vehicle after getting it painted here. The team was very helpful in choosing the right color and finish. The paint quality is excellent and the service was completed on time. Definitely worth every penny!"</p>
                                    <div class="ta-info">
                                            <h6>Yash Parmar</h6>
-                                            <span>Satisfied Customer</span>
                                         </div>
                                     <div class="qt-img">
                                     <img src="<?=base_url('assets/user/img/testimonial/qt-icon.png')?>" alt="img">
@@ -338,7 +333,6 @@
                                   <p>"Their expertise in automotive paint is unmatched. They helped restore my vintage car's paint to its original glory. The attention to detail and the quality of work is exceptional. I couldn't be happier with the results."</p>
                                     <div class="ta-info">
                                             <h6>Murtuza Lokhandwala</h6>
-                                            <span>Vintage Car Collector</span>
                                         </div>
                                      <div class="qt-img">
                                     <img src="<?=base_url('assets/user/img/testimonial/qt-icon.png')?>" alt="img">
